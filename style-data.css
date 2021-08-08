@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:rgba(34, 33, 33, 0.7) url('https://cache.desktopnexus.com/thumbseg/1934/1934008-bigthumbnail.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+#header {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color:maroon;
+    position: fixed;
+    /* border-radius: 20%; */
+}
+
+#logo {
+    width: 30%;
+    float: left;
+}
+
+#logo h1 {
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+    font-family: cambria;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#logo h1:hover {
+    color: yellow;
+}
+
+#menu {
+    float: left;
+    width: 70%;
+}
+
+#menu ul {
+    margin-right: 10%;
+    padding: 0;
+    float: right;
+    text-align: center;
+    padding: 5px;
+    padding-block: 10px;
+}
+
+#menu ul li {
+    cursor: pointer;
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
+}
+
+#menu ul li a {
+    font-family: cambria;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 9px;
+    transition: 1s;
+    text-decoration: none;
+    display: block;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    color: black;
+    box-shadow: 0 5px 50px 0 white inset,
+    0 5px 50px 0 white,
+    0 5px 50px 0 white inset,
+    0 5px 50px 0 white;
+}

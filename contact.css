@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background:rgba(34, 33, 33, 0.7) url("https://wallpaperaccess.com/full/3124535.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
